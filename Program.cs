@@ -123,6 +123,12 @@
                             Console.WriteLine("It's a Tie!");
                         }
                         continue;
+
+                    default:
+                        {
+                            Console.WriteLine("Wrong input entered, follow prompt and be sure to not capitalize any letters");
+                            continue;
+                        }
                 }
             }
         }
