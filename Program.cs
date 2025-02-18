@@ -49,13 +49,13 @@
                         {
                             Console.WriteLine("Player chooses " + userInput + " and Computer chooses " + computerInput);
                             Console.WriteLine("Player wins!");
-                            playerScore = +1;
+                            playerScore += 1;
                         }
                         else if (computerInput == "lizard" || computerInput == "scissors")
                         {
                             Console.WriteLine("Player chooses " + userInput + " and Computer chooses " + computerInput);
                             Console.WriteLine("Computer wins!");
-                            computerScore = +1;
+                            computerScore += 1;
                         }
                         else if (userInput == computerInput)
                         {
@@ -69,13 +69,13 @@
                         {
                             Console.WriteLine("Player chooses " + userInput + " and Computer chooses " + computerInput);
                             Console.WriteLine("Player wins!");
-                            playerScore = +1;
+                            playerScore += 1;
                         }
                         else if (computerInput == "rock" || computerInput == "spock")
                         {
                             Console.WriteLine("Player chooses " + userInput + " and Computer chooses " + computerInput);
                             Console.WriteLine("Computer wins!");
-                            computerScore = +1;
+                            computerScore += 1;
                         }
                         else if (userInput == computerInput)
                         {
@@ -89,13 +89,13 @@
                         {
                             Console.WriteLine("Player chooses " + userInput + " and Computer chooses " + computerInput);
                             Console.WriteLine("Player wins!");
-                            playerScore = +1;
+                            playerScore += 1;
                         }
                         else if (computerInput == "scissors" || computerInput == "rock")
                         {
                             Console.WriteLine("Player chooses " + userInput + " and Computer chooses " + computerInput);
                             Console.WriteLine("Computer wins!");
-                            computerScore = +1;
+                            computerScore += 1;
                         }
                         else if (userInput == computerInput)
                         {
@@ -109,13 +109,13 @@
                         {
                             Console.WriteLine("Player chooses " + userInput + " and Computer chooses " + computerInput);
                             Console.WriteLine("Player wins!");
-                            playerScore = +1;
+                            playerScore += 1;
                         }
                         else if (computerInput == "paper" || computerInput == "lizard")
                         {
                             Console.WriteLine("Player chooses " + userInput + " and Computer chooses " + computerInput);
                             Console.WriteLine("Computer wins!");
-                            computerScore = +1;
+                            computerScore += 1;
                         }
                         else if (userInput == computerInput)
                         {
